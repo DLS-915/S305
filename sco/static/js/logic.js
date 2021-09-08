@@ -21,6 +21,7 @@
  */
  var lock = []; // Global Var that tracks link LOCKS
  var vid = document.getElementById("video_control"); // Points to video
+ var vid = document.getElementById("video_control2"); // Points to video
 
  function markLink() {
      for (let i = 0; i < lock.length; i++) {
